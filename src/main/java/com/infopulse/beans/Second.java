@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @NoArgsConstructor
-@Component
+@Component(value = "second")
 public class Second {
     private int a;
 }
